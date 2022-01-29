@@ -1,0 +1,14 @@
+@media screen and (max-width: 480px) {
+
+    .master {
+        grid-template-areas: 
+        'header header'
+        'menu menu'
+        'content content'
+        'footer footer';
+    }
+    .logo{
+        display: none;
+    }
+    
+}

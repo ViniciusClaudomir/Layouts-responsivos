@@ -1,0 +1,21 @@
+.menu__lista {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+}
+
+.menu__lista__item {
+    display: flex;
+    height: 50px;
+    margin: 2px 0 2px 0;
+}
+
+.lista__item__icone {
+    width: 25%;
+    background-color: #c156c1;
+}
+
+.lista__item__descricao {
+    width: 75%;
+    background-color: rosybrown;
+}

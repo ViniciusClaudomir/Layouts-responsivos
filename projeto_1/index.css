@@ -1,0 +1,94 @@
+:root {
+
+
+    --bg-dark: #1A2F3A;
+    --loogo-height: 100px;
+    --menu-top-height: 80px;
+    --header-height: 100px;
+    --aside-width: 225px;
+    --footer-height: 40px;
+
+
+
+    --shadow:
+    0 2px 23px 0 rgba(0, 0, 0, 0.1),
+    0 2px 49px 0 rgba(0, 0, 0, 0.06)
+}
+
+* {
+
+    box-sizing: border-box;
+  
+
+}
+
+/* Grid*/
+
+.master {
+
+    margin: 0px;
+    display: grid;
+    grid-gap: 3px;
+    grid-template-columns:  var(--aside-width) 1fr;
+    grid-template-rows:
+    var(--header-height)
+    1fr
+    var(--footer-height);
+
+    grid-template-areas: 
+    "logo header"
+    "menu content"
+    "menu footer";
+
+    overflow: hidden;
+    height: 100vh;
+    background-color: #000000;
+
+
+}
+
+.logo {
+    grid-area: logo;
+    background-color: #6784d7;
+}
+
+.header {
+    grid-area:header;
+    background-color: #bfbf5f;
+}
+
+.menu {
+    grid-area: menu;
+    background-color: #68b968;
+}
+
+
+
+.conteudo {
+    grid-area: content;
+    background-color: #d74747;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.lista__item {
+    height: 100px;
+    background-color: pink;
+    margin: 2px 2px 2px 2px;
+
+}
+
+.menu__responsivo__controller {
+    display: none;
+}
+
+
+.footer {
+    grid-area: footer;
+    background-color: #2e2d2d;
+}
+::-webkit-scrollbar {
+    display: none;
+  }
+
+
