@@ -49,37 +49,36 @@
 
 .logo {
     grid-area: logo;
-    background-color: #6784d7;
+    background-color: #000000;
 }
 
 .header {
     grid-area:header;
-    background-color: #bfbf5f;
+    background-color: #6d6d6a;
 }
 
 .menu {
     grid-area: menu;
-    background-color: #68b968;
+    background-color: #666464;
 }
 
 
 
 .conteudo {
     grid-area: content;
-    background-color: #d74747;
-    overflow: hidden;
     overflow-y: scroll;
 }
 
 .lista__item {
     height: 100px;
-    background-color: pink;
+    background-color: #a8a8a8;
     margin: 2px 2px 2px 2px;
 
 }
 
 .menu__responsivo__controller {
     display: none;
+    background-color: beige;
 }
 
 
